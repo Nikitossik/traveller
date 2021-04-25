@@ -1,0 +1,206 @@
+body {
+  scroll-behavior: smooth;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+
+.banner {
+  min-height: 100vh;
+  position: relative;
+}
+
+.slider-text {
+  min-height: 100vh;
+}
+
+.home-banner {
+  background-image: url("../assets/images/banners-background/home-bg.jpg");
+}
+
+.tours-banner {
+  background-image: url("../assets/images/banners-background/tours-bg.jpg");
+}
+
+.about-banner {
+  background-image: url("../assets/images/banners-background/about-bg.jpg");
+}
+
+.contact-banner {
+  background-image: url("../assets/images/banners-background/contact-bg.jpg");
+}
+
+.admin-banner {
+  background-image: url("../assets/images/banners-background/admin-bg.jpg");
+}
+
+#section-counter {
+  background-image: url("../assets/images/banners-background/counter-bg.jpg");
+}
+
+.hero-wrap .overlay {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: 0;
+  opacity: 0.2;
+  background: #ef5933;
+  background: -moz-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, #ef5933),
+    color-stop(100%, #ffdd35)
+  );
+  background: -webkit-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -ms-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: linear-gradient(135deg, #ef5933 0%, #ffdd35 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5933', endColorstr='#ffdd35', GradientType=1 );
+}
+
+#section-counter:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  z-index: -1;
+  opacity: 0.9;
+  background: #ef5933;
+  background: -moz-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, #ef5933),
+    color-stop(100%, #ffdd35)
+  );
+  background: -webkit-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -ms-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: linear-gradient(135deg, #ef5933 0%, #ffdd35 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5933', endColorstr='#ffdd35', GradientType=1 );
+}
+
+.ftco-section-parallax .parallax-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  padding: 10em 0;
+  background: #ef5933;
+  background: -moz-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, #ef5933),
+    color-stop(100%, #ffdd35)
+  );
+  background: -webkit-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -ms-linear-gradient(-45deg, #ef5933 0%, #ffdd35 100%);
+  background: -webkit-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: -o-linear-gradient(315deg, #ef5933 0%, #ffdd35 100%);
+  background: linear-gradient(135deg, #ef5933 0%, #ffdd35 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5933', endColorstr='#ffdd35', GradientType=1 );
+}
+
+.ftco-section.special-bg {
+  background-color: #ffefea;
+}
+
+.btn.btn-primary {
+  background-color: #f85959 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+}
+
+.btn.btn-primary:hover {
+  background-color: #f85959 !important;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+  background: #f8a1a1;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+  background: #f85959;
+}
+.sidebar-wrap.none {
+  padding: 0;
+  border: none;
+  margin-bottom: 0;
+}
+
+.banner .fields {
+  background: #fff;
+  padding: 2rem 5px 0 5px;
+  border-radius: 10px;
+}
+
+.range-slider span {
+  display: flex;
+  flex-direction: row;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination .text {
+  border: 1px solid #e6e6e6;
+  border-top: 1px solid transparent;
+  background: #fff;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.destination .text .info {
+  flex: 1 0 auto;
+}
+
+.destination .text .additional {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+.destination .text .additional p {
+  flex: 0 1 auto;
+}
+
+.destination .text .two .price {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #2f89fc;
+}
+
+.destination .text .two .price.discount {
+  text-decoration: line-through;
+  color: #f85a5a;
+}
+
+.destination .text .two {
+  display: flex;
+  flex-direction: column;
+}
+
+.ftco-section .nav-pills .nav-link.active {
+  background-color: #f85a5a;
+  color: #fff;
+}
+
+.greeting {
+  color: #fff;
+  font-size: 3rem;
+}
